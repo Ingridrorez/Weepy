@@ -14,7 +14,7 @@ const SingleProduct = () => {
 
   // console.log(typeof(productId))
 
-  const { id, name, price, image, details } = singleProduct
+  const { id, name, price, image} = singleProduct
 
   // console.log("product id ", productId)
   // console.log("product ", singleProduct)
@@ -48,9 +48,14 @@ const SingleProduct = () => {
           <div className="col-lg-7">
             <h2>{name}</h2>
             <p className="price"><strong>{price}</strong></p>
-            <p>{details} {details} {details} {details} {details} </p>
-
-            <br />
+            <p>Komposisi Soal Ujian Secara Keseluruhan terdiri dari:</p>
+            <ul class='a'>
+              <li>Tes Potensi Skolastik: Penalaran Umum, Pemahaman Bacaan dan Menulis, Pengetahuan dan penalaran umum, Pengetahuan Kuantitatif </li>
+              <li>TKA Saintek: Matematika, Fisika, Kimia, Biologi </li>
+              <li>TKA Soshum: Matematika, Ekonomi, Geografi, Sosiologi, Sejarah </li>
+            </ul>
+            <a href="https://drive.google.com/drive/u/0/folders/1M9bNte3aUBF_yWVUmDY0w-rt0wOQNdp2" target="_blank">Unduh Bank Soal</a> 
+            <br /><br />
             <button className="btn btn-primary btn-sm" onClick={() => navigate(-1)}>BACK</button> &nbsp; 
             <button className="btn btn-primary btn-sm" onClick={() => navigate('/products')}>NAVIGATE TO PRODUCTS</button> &nbsp;
             <Link to="/products" className="btn btn-primary btn-sm">PRODUCTS</Link>

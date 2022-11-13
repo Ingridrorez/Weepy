@@ -6,6 +6,7 @@ a {
 	text-decoration: none;
 }
 
+
 /* MAIN ////////////////////////////////////////////////////////////// */
 
 main {
@@ -18,7 +19,7 @@ main .content {
 }
 
 main .pg-header {
-	padding: 60px 0;
+	padding: 10px 0;
 	background: #e6e6e6;
 }
 
@@ -27,10 +28,46 @@ main .pg-header h1 {
 	font-weight: 600;
 	font-size: 32px;
 	text-transform: uppercase;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	margin: 0;
 }
 
+main .container-content {
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-content: space-between;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	gap: 5rem;
+}
+
+main .page-left{
+	margin-top: -3rem;
+}
+
+main .page-left p{
+	margin: 1rem 0 3.5rem;
+	font-size: 1.1rem;
+	text-indent: 50px;
+	text-align: justify;
+}
+
+main .page-left h4{
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	color: var(--color-secondary);
+	font-weight: 600;
+	font-family:'Courier New', Courier, monospace;
+}
 /* BUTTON ////////////////////////////////////////////////////////////// */
+
+main .page-left h5{
+	font-family:'Courier New', Courier, monospace;
+	font-weight: 600;
+	color:white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
 
 .btn-primary {
 	border-radius: 0;
@@ -57,7 +94,7 @@ main .pg-header h1 {
 
 .about h2 {
 	text-transform: uppercase;
-	font-size: 22px;
+	font-size: 24px;
 	font-weight: 600;
 	padding-bottom: 10px;
 	position: relative;
@@ -74,6 +111,9 @@ main .pg-header h1 {
 	left: 0;
 }
 
+.about p{
+	font-size: 20px;
+}
 /* PRODUCTS ////////////////////////////////////////////////////////////// */
 
 .products-row .card .card-body {
@@ -213,7 +253,7 @@ header .nav-link:hover {
 /* FOOTER ////////////////////////////////////////////////////////////// */
 
 footer {
-	padding: 40px 0 100px 0;
+	padding: 10px 0 50px 0;
 }
 
 footer .nav-link {

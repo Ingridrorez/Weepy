@@ -11,15 +11,27 @@ const About = () => {
         <div className="row">
           <div className="col-lg-4">
             <h2>Why Choose Us.</h2>
-            <p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo. Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.</p>
+            <ul class='x'>
+              <li>Weepy menyediakan sumber belajar yang lengkap dan akses produk secara gratis melalui
+              berbagai perangkat seluler.</li>
+              <li>Pembelajaran menjadi fleksibel dan disusun sesuai kebutuhan siswa</li>
+            </ul>
           </div>
           <div className="col-lg-4">
             <h2>Our Mission.</h2>
-            <p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo. Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.</p>
+            <ul class='z'>
+              <li>Meciptakan sarana belajar yang mudah diakses</li>
+              <li>Meningkatkan motivasi belajar siswa dengan tampilan yang menarik</li>
+              <li>Menjadi sarana belajar yang dapat menjangkau siswa secara luas.</li>
+            </ul>
           </div>
           <div className="col-lg-4">
             <h2>What We Do.</h2>
-            <p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo. Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium ea modi ut.</p>
+            <ul class='y'>
+              <li>Menciptakan akses belajar yang lebih mudah</li>
+              <li>Membangun koneksi yang dapat mendukung berjalannya program pembelajaran</li>
+              <li>Mendukung sistem pembelajaran jarak jauh</li>
+            </ul>
           </div>
         </div>
       </div>
