@@ -7,6 +7,8 @@ const About = () => {
           <h1>About</h1>
         </div>
       </div>
+    <br/>
+    <br/>
       <div className="container content">
         <div className="row">
           <div className="col-lg-4">
@@ -38,5 +40,6 @@ const About = () => {
     </main>
   )
 }
+
 
 export default About

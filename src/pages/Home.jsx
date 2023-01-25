@@ -23,11 +23,11 @@ const Home = () => {
             disediakan diperbarui untuk setiap jangka waktu tertentu. Dengan Weepy setiap siswa dapat 
             mengoptimalkan waktu mereka untuk belajar tanpa harus binggung mencari sumber belajar yang tepat.
           </p>
-          <h5>֍ Mari belajar dan bergabung dengan pengguna lainnya di Weepy ֍</h5>
+          <center> <h5>֍ Mari belajar dan bergabung dengan pengguna lainnya di Weepy ֍</h5> </center>
         </div>
       <div className="page-right">
         <div className="page-image">
-          <img src={homeImage} alt="pg-header image"/>
+          <center> <img src={homeImage} alt="pg-header image"/> </center>
         </div>
       </div>
       </div> 

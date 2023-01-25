@@ -54,11 +54,11 @@ const SingleProduct = () => {
               <li>TKA Saintek: Matematika, Fisika, Kimia, Biologi </li>
               <li>TKA Soshum: Matematika, Ekonomi, Geografi, Sosiologi, Sejarah </li>
             </ul>
-            <a href="https://drive.google.com/drive/u/0/folders/1M9bNte3aUBF_yWVUmDY0w-rt0wOQNdp2" target="_blank">Unduh Bank Soal</a> 
+            <a href="https://drive.google.com/drive/u/0/folders/1M9bNte3aUBF_yWVUmDY0w-rt0wOQNdp2" target="blank">Unduh Bank Soal</a> 
             <br /><br />
             <button className="btn btn-primary btn-sm" onClick={() => navigate(-1)}>BACK</button> &nbsp; 
-            <button className="btn btn-primary btn-sm" onClick={() => navigate('/products')}>NAVIGATE TO PRODUCTS</button> &nbsp;
-            <Link to="/products" className="btn btn-primary btn-sm">PRODUCTS</Link>
+            {/* <button className="btn btn-primary btn-sm" onClick={() => navigate('/products')}>NAVIGATE TO PRODUCTS</button> &nbsp; */}
+            {/* <Link to="/products" className="btn btn-primary btn-sm">PRODUCTS</Link> */}
           </div>
         </div>
       </div>
